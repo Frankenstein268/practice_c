@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    	<title>Current Time and Date</title>
+    	<style>
+			div {
+ 				/*background-color: green; */
+ 				margin: 100px 200px 100px 200px; 
+ 				text-align: center;
+ 				border: 3px solid black;
+ 				padding: auto;
+			}
+			table {
+				text-align: left;
+				padding: auto;
+				margin: auto;
+			}
+		</style>
+	</head>
+  	<body>
+		<div>
+			<table>
+            	<tr>
+					<th>
+					    <h3>Date: </h3>
+					</th>
+					<th>
+					    <h3>{{ date }}</h3>
+					</th>
+			    </tr>
+			    <tr>
+					<th>
+				    	<h3>Time:</h3>
+					</th>
+					<th>
+					    <h3>{{ time }}</h3>
+					</th>
+			    </tr>
+			    <tr>
+					<th>
+				    	<h3>Week:</h3>
+					</th>
+					<th>
+					    <h3>{{ week }}</h3>
+					</th>
+			    </tr>
+			    <tr>
+					<th>
+				    	<h3>Day in Year:</h3>
+					</th>
+					<th>
+					    <h3>{{ year }}</h3>
+					</th>
+			    </tr>
+			    <tr>
+					<th>
+					    <h3>Week Number:</h3>
+					</th>
+					<th>
+					    <h3>{{ weeknum }}</h3>
+					</th>
+			    </tr>
+       		</table>
+			<form action="/">
+            	<input class="weatherText" id="weatherSubmit" type="submit" value="Back to Home">
+        	</form>
+			<br><br>
+		</div>
+  </body>
+</html>
